@@ -45,10 +45,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else
         {
-            Intent intent= new Intent(this,Main2Activity.class);
-            intent.putExtra(Main2Activity.message,email);
-            startActivity(intent);
-            edit.setText("");
+
         }
 
     }

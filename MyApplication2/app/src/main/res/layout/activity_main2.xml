@@ -10,11 +10,34 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     tools:context="com.nmk.aneesahamed.myapplication.Main2Activity">
-    <TextView
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="267dp"
+       android:id="@+id/img"/>
+    <EditText
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit"
+        android:hint="entert url"
+        android:inputType="textFilter"
+        android:backgroundTint="@color/colorPrimary" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ok"
+        android:onClick="getimage"
+        android:layout_marginTop="-45dp"
+        android:layout_marginLeft="260dp" />
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="First Android App"
-        android:textColor="#309922"
-        android:textStyle="bold"/>
-
+        android:hint="Rotate"
+        android:onClick="rotateimage"
+        android:layout_marginTop="30dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Next"
+        android:onClick="Next"
+        android:layout_marginTop="30dp" />
 </LinearLayout>
