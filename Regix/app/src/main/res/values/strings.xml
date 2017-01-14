@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Regix</string>
+    <string name="desc">If You Want to use Regix,You need to Register at WWW.domain_name.com</string>
+    <string name="data_persist"> Persists Data,When you Dont have internet </string>
+</resources>
